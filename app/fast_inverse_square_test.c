@@ -12,7 +12,7 @@ int main(void)
     ret = scanf("%f", &num);
     while(num != 0)
     {
-        printf("%f", InverseSquareRoot(num));
+        printf("%f\n", InverseSquareRoot(num));
         ret = scanf("%f", &num);
     }
 
