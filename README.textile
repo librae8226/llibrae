@@ -1,12 +1,24 @@
-@ifnottex
-@node Top
-@top Short Sample
+library of librae
+COPYRIGHT (C) LIBRAE
 
-@insertcopying
-@end ifnottex
+Run Code
+--------
+cp ./app/xxx_test.c ./app/main.c
+make
+./build/llibrae
 
-@menu
-* First Chapter::    The first chapter is the
-                     only chapter in this sample.
-* Index::            Complete index.
-@end menu
+Source Tree Architecture
+------------------------
+app:
+    Sample code.
+lib:
+	Main library.
+scripts:
+	Useful scripts.
+support:
+	Useful template files are placed here.
+
+Acknowledgments
+---------------
+
+!http://source.android.com/images/home-bugdroid.png!
